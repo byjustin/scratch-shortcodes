@@ -61,7 +61,7 @@ function scratch_sc_column( $atts , $content = null ) {
 			if ( !empty($large) ) {
 				echo ' large-'. esc_attr($large) .''; }
 			if ( !empty($alignment) ) {
-			echo ' '. esc_attr($alignment) .''; } ?> columns">
+			echo ' '. esc_attr($align) .''; } ?> columns">
 			<?php do_shortcode($content); ?>
 		</div><!-- .columns -->
 
